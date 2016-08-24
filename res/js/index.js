@@ -1,0 +1,41 @@
+// JavaScript Document
+
+$(function(){
+	$(".msg").click(function(){
+		$(this).next().focus();
+	});
+	$("input[type='password']").bind({
+		focus:function(){
+			$(this).prev().hide();
+			//console.log($(this).parent(".input_one"));
+			if(!($(this).parent().hasClass("input_one"))){
+				this.style.color="#666";
+			}
+		},
+		blur:function(){
+			var value=$.trim($(this).val());
+			//console.log(value);
+			if(value==""){
+				$(this).prev().show();
+			}
+		}
+	});
+	$('.hint_txt').bind({
+			focus:function(){
+				if(this.value==this.defaultValue){
+				this.value="";
+				if(!($(this).parent().hasClass("input_one"))){
+					this.style.color="#666";
+				}
+			}
+		},
+			blur:function(){          
+				if(this.value==this.defaultValue||this.value==""){
+				this.value=this.defaultValue;
+				if(!($(this).parent().hasClass("input_one"))){
+					this.style.color="#999";
+				}
+			}
+		}
+	});
+})

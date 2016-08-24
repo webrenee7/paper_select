@@ -1,0 +1,438 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ width:100%;font:14px/24px 'Microsoft YaHei'; color:#333; background:#f5f1f2; }
+*{padding:0; margin:0;}
+ul,ul li{ list-style:none;*vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+a{ color:#333; text-decoration:none;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+a:focus{ outline:none; -moz-outline:none;}
+.left{ float:left;}
+.right{ float:right;}
+.center{ text-align:center;}
+.te_2{ text-indent:2em;}
+.tx_l{ text-align:left !important;}
+.tx_r{ text-align:right !important;}
+.break{ white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+select,select:focus{ outline:none}
+input,textarea,select{ background:none; border:none;  font-family:"Microsoft YaHei"; line-height:normal; outline:none;}
+textarea{ resize:none;}
+.btn{ background:none; border:none; line-height:normal; cursor:pointer;-webkit-tap-highlight-color:rgba(0,0,0,0); *overflow:visible;}
+img{ border:medium none;}
+.clear{ clear:both;}
+.clearfix:after {
+    content: ".";             
+	display: block;            
+    height: 0; 
+	font-size:0;
+    clear: both;              
+    visibility: hidden;	     
+}
+.clearfix {display:block;}
+
+.mal_7{ margin-left:7px;}
+.mal_30{ margin-left:30px;}
+.mal_20{ margin-left:20px;}
+.mar_0{ margin-right:0 !important;}
+.mat_0{ margin-top:0 !important;}
+.mab_0{ margin-bottom:0 !important;}
+.mat_10{ margin-top:10px;}
+.mat_27{ margin-top:27px;}
+.mat_150{ margin-top:150px;}
+.pl_40{ padding-left:40px;}
+.pt_38{ padding-top:38px !important;}
+.pat_20{ padding-top:20px;}
+.pab_10{ padding-bottom:10px !important;}
+.pab_0{ padding-bottom:0px !important;}
+.pab_40{ padding-bottom:40px;}
+.ml_24{ margin-left:24px;}
+.txt_red{ color:#ff0000 !important;}
+.txt_yellow{ color:#ff9900 !important;}
+.txt_999{ color:#999;}
+.txt_333{ color:#333;}
+.border_none{ border:none !important;}
+.p_0{ padding:0 !important;}
+
+/*index*/
+.index_top{ height:738px; background:url(../images/index_bg1.jpg) no-repeat center top;}
+/*index-head*/
+.index_header{ width:1118px; margin:0 auto;}
+.index_logo{ width:134px; float:left; padding-top:10px;}
+.color_logo1{ width:51px;}
+.color_logo2{ width:53px; margin-left:30px;}
+.index_nav{ width:575px; float:right; padding-top:23px;}
+.index_nav li{ float:right; font-size:18px; line-height:28px; margin-left:50px;}
+.index_nav li a{ color:#fff;}
+/*index-head-end*/
+.index_title{ width:1118px; margin:135px auto 0; text-align:center;}
+.index_activity_info{font-size:18px; color:#fff; line-height:32px; margin-top:20px;}
+.index_activity_date{ background:url(../images/index_title_bg1.png) no-repeat center; margin-bottom:5px; }
+.index_entrance{ width:655px; height:71px; margin:55px auto 0;}
+.index_entrance_btn{ width:285px; height:70px; background:#18424b; border:1px solid #338395; font-size:34px; color:#ff9900; line-height:70px; text-align:center;}
+.index_bottom{ height:853px; background:url(../images/index_bg2.jpg) no-repeat center top #18424b; color:#fff;}
+.index_activity_intro{ width:1118px; margin:0 auto; padding:80px 0 65px; border-bottom:1px solid #6fadba;}
+.index_title2{ background:url(../images/index_title_bg2.png) no-repeat center; text-align:center; font-size:32px; line-height:42px; }
+.index_activity_intro_txt{ font-size:16px; line-height:28px; margin-top:40px;}
+.index_partner{ width:1118px; margin:53px auto 0;}
+.index_partner_list{ margin-top:47px;}
+.index_partner_list li{ float:left; margin-right:24px;}
+.index_partner_list a{ display:block;}
+.index_partner_list a img{ width:261px; height:93px;}
+/*foot*/
+.index_foot{ background:#06222c;}
+.foot{ background:#fff; margin-top:8px;}
+.footer{ height:175px; width:1000px; margin:0 auto; color:#999;}
+.footer_top{ height:65px; padding:30px 0 0 248px;}
+.footer_logo{ width:139px; float:left;}
+.footer_info{ width:600px; float:left; margin-left:13px; margin-top:10px; line-height:26px;}
+.footer_info a{ color:#999;}
+.footer_support{ margin-top:20px; text-align:center;}
+/*foot-end*/
+
+/*head*/
+.head{background:url(../images/head_bg.jpg) no-repeat center top #06222c;}
+.header{ width:1000px; margin:0 auto; height:97px; }
+.header_logo{ width:528px; float:left; padding-top:21px;}
+.header_logo img{ vertical-align:middle;}
+.header_logo1{ width:51px;}
+.header_logo2{ width:53px; margin:0 17px 0 7px;}
+.header_nav{ float:right; padding-top:21px;}
+.header_nav li{ float:right; margin-left:25px;}
+.header_nav li a{ color:#fff;}
+.icon{ background:url(../images/icon.png) no-repeat left;}
+.icon_user{ background-position:0 3px; padding-left:25px;}
+.icon_notice{ background-position:0 -22px; padding-left:29px;}
+.icon_exit{ background-position:0 -47px; padding-left:26px;}
+/*head-end*/
+
+
+
+/*期刊申报-1-1-0-登录*/
+.login_box{ padding:70px 60px 0; height:570px; border:1px solid #ebebeb; background-color:#fff;}
+.login_box a{ color:#999;}
+.login_box a:hover{ text-decoration:underline;}
+.login_l{ float:left; width:553px; background:url(../images/line.jpg) no-repeat right center;}
+.title{ font-size:24px; font-weight:normal; line-height:30px; color:#666; padding-bottom:15px;}
+.input_line{ position:relative; padding-bottom:20px; font-size:16px;}
+.login_l .input_line p{ width:553px;}
+.input_line .msg{ position:absolute; top:17px; left:17px; color:#999;}
+.txt{ height:57px; line-height:57px; padding:0 17px; border:1px solid #ccc; border-radius:5px; font-size:16px; color:#666;}
+.hint_txt{ color:#999;}
+.input_line .txt{ width:359px; margin-right:10px;}
+.input_line span{ display:inline-block; margin:17px 12px 0 0;}
+.btn_box{ width:395px; padding-top:7px;}
+.btn_box .btn{ width:100%; margin-top:20px;}
+.btn_box .center{ padding:18px 0;}
+.login_r{ float:right; width:275px; padding:28px 0 0 50px; font-size: 16px; color: #999;}
+.report_time{ line-height:51px;}
+.download_file p{ color:#666; font-size:18px; line-height:27px; padding:13px 0 5px;}
+
+
+/*期刊申报-1-2-0-注册*/
+.l_box{ float:left; width:577px;}
+.r_box{ float:right; width:296px; height:150px; margin-top:45px; border:1px solid #ccc; border-radius:5px; background:url(../images/remark.jpg) no-repeat;}
+
+
+/*期刊申报-1-2-1-注册-期刊申报-须知*/
+.main{ width:1000px; margin:0 auto;}
+.nav_path{ height:52px; line-height:52px; font-size:16px;}
+.apply_process{width:1000px; height:36px; padding:2px 0 10px; margin:0 auto;}
+.apply_process ul{ width:780px; height:36px; margin:0 auto;}
+.apply_process li{ height:36px; line-height:36px; float:left;font-size:16px; margin-right:40px; color:#666; padding-right:20px; position:relative;}
+.apply_process_txt{ height:36px; padding:0 11px 0 40px; border-radius:5px 0 0 5px; display:block;}
+.apply_process_arrow{ width:20px; height:36px; background:url(../images/arrow_white.png) no-repeat; position:absolute; right:1px; bottom:0; display:block;}
+.icon_process{ background:url(../images/icon_process_green.png) no-repeat left #fff;}
+.icon_process1{ background-position:19px 10px !important;}
+.icon_process2{ background-position:19px -19px !important;}
+.icon_process3{ background-position:19px -56px !important;}
+.icon_process4{ background-position:19px -93px !important;}
+.apply_process li.last_li{ margin-right:0; padding-right:0;}
+.apply_process li.last_li .apply_process_txt{ padding:0 30px 0 49px; border-radius:5px;}
+.apply_process li.current{ color:#fff;}
+.apply_process li.current .icon_process{ background:url(../images/icon_process_white.png) no-repeat left #ff9900;}
+.apply_process li.current .apply_process_arrow{ background:url(../images/arrow_orange.png) no-repeat;}
+.apply_box{ background:#fff; border:1px solid #ebebeb; padding:30px;}
+.apply_info{ border:1px solid #ebebeb; height:523px; overflow:auto; font-family:Simsun; color:#666; padding:30px 35px 27px;}
+.apply_info_title{ text-align:center; font-size:22px; line-height:32px;}
+.apply_info_txt{ font-size:16px; line-height:28px; margin-top:30px;}
+.apply_info_txt p{ margin-bottom:28px; text-indent:2em;}
+.apply_agree_box{ padding:20px 0 20px; height:59px; line-height:59px;}
+.orange_btn{  height:59px; background:#ff9900; font-size:20px; color:#fff; border-radius:5px;}
+.grey_border_btn{ height:59px; background:#f4f3f3; font-size:20px; color:#666;border:1px solid #cdcdcd; border-radius:5px;}
+.apply_agree_box .orange_btn,.apply_agree_box .grey_border_btn{ float:right; margin-left:30px;}
+.apply_agree_tip{ color:#666; text-decoration:underline; float:right; font-size:16px;}
+.wid_278{ width:278px;}
+.wid_151{ width:151px;}
+
+
+/*期刊申报-1-2-2-注册-申请委托人绑定*/
+.info_box{ padding:93px 50px 112px 280px; border:1px solid #ebebeb; background-color:#fff;}
+.require{ position:absolute; left:-24px;}
+.get_code a{ position:absolute; top:6px; left:230px; display:block; width:144px; height:48px; line-height:48px; background-color:#f5f1f2; font-size:16px; color:#999;  border-radius:5px; padding-left:15px;}
+.get_code a span{ margin:0;}
+.get_code .txt{ width:210px; padding-right:166px;}
+.hint_info{ padding:22px 0 2px; color:#999; }
+.hint_info a{ color:#0000ff;}
+.hint_info a:hover{ text-decoration:underline;}
+.input_line p{ width:668px;}
+
+
+/*期刊申报-1-2-2-注册-申请委托人绑定-弹窗*/
+.login_sucess,.mod_sucess{ font-size:24px; line-height:44px;}
+.login_sucess .center{ padding:24px 0 10px;}
+.mod_pwd{ font-size:16px; color:#999; text-align:center; padding:6px 0 4px;}
+.to_login{ text-align:center; padding-bottom:22px;}
+.mod_sucess .to_login{ padding-bottom:86px;}
+.mod_sucess .center{ padding:54px 0 58px;}
+
+
+/*期刊申报-1-4-0-期刊基本信息*/
+.journal_info{ padding:0 20px; font-size:16px; color:#666;}
+.label{ width:210px; text-align:right; line-height:59px; margin-right:17px; color:#666;}
+.txt_box{ padding:62px 0 10px;}
+.txt_box .input_line{ width:732px;}
+.txt_box .txt{ color:#666;}
+.one_checklist{ width:732px; padding-bottom:14px;}
+.one_checklist ul li{ width:505px; line-height:51px;}
+.one_checklist ul li label{ margin-right:17px;}
+label input{ margin-right:5px; vertical-align:-1px;}
+.square_btn{ width:121px; height:34px; border:1px solid #ccc; background-color:#e8e7e7; font-size:18px; color:#348296}
+.green_box{ position:relative; width:121px; height:34px;}
+.green_box .btn{ position:absolute; left:0; top:0;}
+.green_box input[type="file"]{ width:121px; height:34px; opacity:0; filter:alpha(opacity=0); z-index:1;}
+.yellow_box,.green_box{ margin-top:10px;}
+.yellow_box{ *margin-top:0;}
+.yellow_box .btn{ color:#ff9900;}
+.txt2{ width:204px; height:32px; line-height:32px; border:1px solid #ccc; padding:0 15px; font-size:16px; color:#999; margin:9px 0 0 17px;}
+.next_btn{ text-align:center; padding:32px 0 58px;}
+
+
+/*期刊申报-1-4-0-期刊基本信息-弹窗*/
+.cover_box{ position:fixed; top:0; left:0; z-index:99; width:100%; height:100%; background-color:#000; opacity:0.1; filter:alpha(opacity=10);}
+.pop_box{ position:fixed; top:50%; left:50%; margin-top:-177px; margin-left:-290px; z-index:100; background-color:#fff; width:510px; padding:0 35px; font-size:16px; color:#666;}
+.pop_tit{ height:24px; border-bottom:1px solid #ccc; padding:24px 0 4px; font-size:18px;}
+.pop_tit .btn{ height:24px; font-size:18px; color:#666;}
+.upload_box{ width:510px; margin-top:18px;}
+.upload_box .green_box{ margin:0;}
+.file_path{ display:block; float:left; width:160px; height:34px; line-height:34px; margin:0 18px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; text-decoration:underline;}
+.file_tb{ padding:30px 0 104px;}
+.file_tb p{ width:510px; padding:8px 0;}
+.file_tb .hd{ border-bottom:1px solid #ccc;}
+.file_tb .hd .right{ margin-right:32px;}
+.file_tb a{ margin-right:10px;}
+.file_tb a:hover{ text-decoration:underline;}
+
+
+/*期刊申报-1-5-0-提交论文-列表*/
+.submit_paper{ width:998px; border:1px solid #ebebeb; background:#fff url(../images/bg.jpg) repeat-y left top;}
+.tx_r ul{ display:inline-block; *display:inline; *zoom:1;}
+.l_cont{ float:left; width:203px; min-height:780px;}
+.sidebar ul li{ margin-bottom:3px;}
+.sidebar ul li a{ display:block; height:54px; line-height:54px; background:url(../images/sidebar_a.jpg) no-repeat; font-size:18px; color:#06222c; text-align:center; }
+.sidebar ul li.cur{ position:relative; width:213px; height:58px; margin-bottom:0;}
+.sidebar ul li.cur a{ position:absolute; left:-2px; width:100%; height:58px; background:url(../images/sidebar_a_on.png) no-repeat; color:#fff;}
+.sidebar ul li.cur .txt_red{ color:#fff!important;}
+.deadline_time{ background-color:#e8eff1; border-left:1px solid #b5d9d9; border-right:1px solid #b5d9d9; padding:17px 0;}
+.deadline_time ul{ border-left:1px solid #ccc; margin-left:14px;}
+.deadline_time ul li{ position:relative; width:171px; line-height:27px; font-size:18px; color:#333; padding-left:15px;}
+.deadline_time ul li .time{ font-size:16px; color:#666;}
+.deadline_time ul li span{ position:absolute; left:-9px; top:0; color:#ccc; font-size:25px;}
+.deadline_time ul li.cur span{ color:#ff9900;}
+.contact_us{ font-size:15px; color:#666; padding:0 10px;}
+.contact_us a{ color:#666;}
+.contact_us h3{ font-size:18px; color:#333; margin:26px 0 7px;}
+.r_cont{ float:right; width:780px;}
+.submit_num{ font-size:16px; color:#999; margin:19px 8px 17px 0;}
+.add_btn{ width:82px; height:28px; line-height:28px; font-size:16px; color:#fff; background:#ff9900 url(../images/add_icon.png) no-repeat 14px 6px; padding-left:20px;}
+.paper_tb{ padding-right:8px;}
+.paper_tb table{ border-collapse:collapse; width:100%; border:1px solid #dbd9d9; table-layout:fixed;}
+.paper_tb th{ height:33px; font-size:15px; font-weight:normal; color:#333; background-color:#eee; border-right:1px dashed #e8e7e7;}
+.paper_tb td{ font-size:14px; color:#666; text-align:center; border:1px dashed #e8e7e7; padding:15px 6px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.paper_tb tr:first-child td{ border-top:0;}
+.paper_tb .txt_red{ margin:0 3px; color:#666;}
+.paper_tb a:hover{ text-decoration:underline;}
+
+
+/*期刊申报-1-6-0-个人信息-个人资料*/
+.personal_center{ padding:54px 0 0 14px;}
+.personal_center .input_line{ width:766px;}
+.save_btn{ width:395px; padding:18px 0 114px 227px;}
+.save_btn .btn{ width:100%;}
+.input_line .wid_395{ position:relative; float:left; width:395px;}
+.input_line .wid_395 a{ left:230px;}
+.modify_box{ padding:54px 20px 58px 122px;}
+
+
+/*期刊申报-1-7-0-系统通知*/
+.system_notice{ padding:64px 133px 135px; background-color:#fff; border:1px solid #ebebeb;}
+.system_notice div{ padding:23px 35px; margin-bottom:20px; font-size:18px; color:#666; line-height:28px; border:1px solid #ccc; border-radius:5px;}
+
+
+/*期刊申报-4-联系我们*/
+.contact_info{ padding:46px 62px 0; background-color:#fff; border:1px solid #ebebeb;}
+.detail_info{ border-top:1px solid #ccc; font-size:16px; color:#999; line-height:46px; padding:19px 0 197px;}
+.detail_info h3{ padding-left:33px; background:url(../images/icon_contact.png) no-repeat; font-size:18px; font-weight:normal; color:#333;}
+.detail_info p{ padding-left:33px;}
+.detail_info .icon1{ background-position:0 14px;}
+.detail_info .icon2{ background-position:0 -32px;}
+.detail_info .icon3{ background-position:0 -77px;}
+.detail_info .icon4{ background-position:0 -123px;}
+.detail_info .icon5{ background-position:0 -170px;}
+.detail_info a{ color:#0000ff; text-decoration:underline;}
+
+/*评审组-2-0-组员维护（负责人only）*/
+.review_notice{ width:780px; font-size:18px; color:#ff9900; padding:0 0 12px 220px;}
+
+/*评审组-2-1-组员维护（负责人only）---专家信息详细页*/
+.maintain_box{ padding:54px 20px 0 73px; background-color:#fff; border:1px solid #ebebeb;}
+.maintain_box .input_line{ width:905px;}
+.maintain_box label{ height:59px;}
+.maintain_box label span{ margin:0 7px 0 0; vertical-align:middle;}
+.maintain_box textarea{ height:137px; line-height:30px; padding:10px 17px}
+.send_info{ padding:17px 0 35px 227px; font-size:16px; color:#666;}
+.send_info input{ margin-right:10px;}
+.two_btn{ height:59px; padding:0 283px 132px 227px;}
+
+/*期刊申报-1-5-1-论文基本信息页*/
+.blue_btn{ width:123px; height:34px; background:#348296; font-size:18px; color:#fff;}
+.main_top_box{ width:100%; padding:10px 0 6px;}
+.base_info{ width:764px; color:#666; font-size:16px; padding:50px 0 100px;}
+.base_info_top{}
+.base_info_top_line,.base_info_line{ height:59px; line-height:59px; padding-bottom:20px; overflow:hidden;}
+.base_info .label{ width:200px; float:left;}
+.base_info .txt{ float:left;}
+.base_info_top_line .txt{ width:373px;}
+.red_star{ color:#ff0000; font-size:18px; margin-right:10px; vertical-align:middle;}
+.radio_label{ margin-right:25px; float:left;}
+.base_info_top_line .square_btn{ width:205px; margin-top:12px; float:left;}
+.base_info_top_line .tip{ color:#999; margin-left:15px; float:left;}
+.base_info_box{ background:#f8f8f8; border:1px solid #ccc; position:relative; padding-top:20px; margin-bottom:10px;}
+.base_info_line .label{ width:199px;}
+.base_info_line .txt{ width:359px; background:#fff;}
+.base_info_delete{ width:24px; padding:18px 0; text-align:center; border:1px solid #ccc; font-size:16px; line-height:20px; color:#ff0000; position:absolute; right:-1px; top:50%; margin-top:-35px;}
+.base_info_line .add_btn{ width:127px; margin-top:15px; margin-left:7px;}
+.base_info_top_line .txt.wid_86{ width:83px;}
+.label.small{ width:78px; margin-right:17px;}
+.textarea_box{ line-height:59px;}
+.textarea{ width:373px; height:298px; border:1px solid #ccc; font-size:16px; line-height:26px; color:#666; border-radius:5px; resize:none; padding:5px 17px;}
+.base_info_submit{ width:409px; height:59px; padding-left:217px; margin-top:35px;}
+.wid_210{ width:210px;}
+.wid_160{ width:160px;}
+.pop_btn_two{ width:324px; margin:0 auto; height:59px;}
+.grey_btn{height:59px; background:#e8e7e7; font-size:20px; color:#348296; border-radius:5px;}
+.subject_tree{ height:205px; border-bottom:1px solid #ccc; overflow-y:auto; margin-bottom:22px; }
+.border_b_c{}
+
+/*期刊申报-1-5-2-论文正文材料*/
+.content_info{width:764px; padding-top:50px; font-size:16px;}
+.content_info_line{ line-height:59px; height:59px; overflow:hidden;}
+.content_info_line .label{ float:left;}
+.wid_200{ width:200px;}
+.content_info_line .square_btn{ margin-top:12px;}
+
+/*期刊申报-1-5-3-论文评价材料*/
+.acclaim_info{ width:764px; padding:50px 0 100px; font-size:16px; color:#666;}
+.acclaim_info_box{ border:1px solid #ccc; padding:0 30px; padding-bottom:20px; margin-bottom:30px;}
+.acclaim_info_title{ font-size:20px; color:#348296; line-height:30px;}
+.acclaim_info_title span{ width:168px; text-align:center; position:relative; display:inline-block; top:-15px; background:#fff; }
+.acclaim_info_con{}
+.acclaim_txt_line{ padding:15px 0 15px 187px; line-height:26px;}
+.acclaim_txt_line a{ color:#ff0000; text-decoration:underline;}
+.icon_down{ background:url(../images/icon.png) no-repeat; background-position:0 -79px; padding-left:28px;}
+.acclaim_info_line{ width:100%; margin-bottom:10px;}
+.wid_170{ width:170px;}
+.textarea_small{ width:409px; height:127px;}
+.pal_187{ padding-left:187px;}
+.wid_409{ width:409px;}
+.wid_561{ width:515px;}
+.acclaim_border_tit{ height:28px; line-height:28px; font-size:18px; padding-bottom:3px; border-bottom:1px solid #ccc; margin-bottom:20px;}
+.acclaim_border_tit .intro_span{ float:left; width:174px;}
+.wid_130{ width:130px;}
+.acclaim_bottom_box{ padding-bottom:10px;}
+.acclaim_bottom_line{ height:34px; line-height:34px; margin-bottom:20px;}
+.select{ width:163px; height:34px; line-height:32px; border:1px solid #ccc; padding:0 15px; font-size:16px; color:#999;}
+.acclaim_bottom_line .txt2{ width:279px; float:left; margin:0 6px 0 0;}
+.acclaim_bottom_line .select{ float:left; margin-right:6px;}
+.wid_89{ width:89px;}
+.info_submit_box{ text-align:center;}
+
+/*评审组-3-0-论文列表-待评*/
+.big_blue_btn{ width:160px; color:#fff; padding:6px 0; text-align:center; background:#348296;}
+.main_top_search{ width:772px; padding:15px 8px 15px 0; }
+.search_box{ width:380px; height:32px; border:1px solid #999; float:left; color:#999; margin-top:3px; }
+.search_text{ width:301px; height:32px; padding:0 15px; color:#999; float:left;}
+.search_span{ float:left; width:4px; text-align:center; font-size:20px; line-height:28px;}
+.search_btn{ width:45px; height:32px; background:url(../images/icon.png) no-repeat; background-position:10px -110px; float:right;}
+.orange_38_btn{ width:155px; height:38px; background:#ff9900; font-size:16px; color:#fff;}
+/*页码*/
+.flip{ text-align:center;}
+.flip ul{ display:inline-block; *display:inline; *zoom:1; height:31px;}
+.flip ul li{ float:left; width:80px; height:31px; text-align:center; line-height:31px; margin-right:9px; color:#666;}
+.flip ul li a{ background:#efefef; color:#666; display:block;}
+.flip ul li span{ display:block;}
+.flip ul li .disable{ background:#75b1c0; color:#fff;}
+
+/*评审组-3-1-论文详细页*/
+.main_box_top{ width:100%;  margin-top:10px; font-size:16px; line-height:36px;}
+.icon_print{ background:url(../images/icon.png) no-repeat left; background-position:0 -145px; padding-left:30px;}
+.icon_note{ background:url(../images/icon.png) no-repeat left; background-position:0 -182px; padding-left:30px;}
+.main_box{ background:#fff; border:1px solid #ebebeb;}
+.main_content{ padding:30px 30px 22px 30px;}
+.main_content_box{ position:relative; margin-bottom:8px; border:1px solid #ebebeb; font-size:18px; color:#666; line-height:32px; padding:8px 35px 28px; }
+.orange_point{ background:url(../images/orange_point.jpg) no-repeat left center; padding-left:15px; color:#333; font-weight:bold;}
+.main_content_box .title{ font-size:24px; margin:25px 0 7px; line-height:34px; color:#333;}
+.main_content_p{ width:846px; padding:17px 10px 0;}
+.main_content a{ color:#666; text-decoration:underline;}
+.wid_759{ width:759px;}
+.main_content_box_one{ padding:8px 0 28px; border-bottom:1px solid #f4f1f1;}
+.patb_0{ padding-top:0; padding-bottom:0;}
+.wid_687{ width:687px;}
+.main_box_table{ width:100%; table-layout:fixed; text-align:left;}
+.main_box_table th{ color:#333;}
+.main_box_table th,.main_box_table td{ padding:9px 0;}
+
+
+/*评审组-3-2-提交评审意见--不推荐*/
+.submit_opinions{ padding:58px 58px 0; background-color:#fff; border:1px solid #ebebeb;}
+.submit_opinions .title{ color:#333;}
+.submit_opinions .center{ padding:54px 0 90px;}
+.one_info{ width:882px; font-size:18px; line-height:50px; padding-bottom:9px; color:#666;}
+.one_info .label{ width:auto; height:50px; line-height:50px;}
+.one_info input{ vertical-align:0; *vertical-align:2px;}
+.one_info textarea{ width:586px; height:146px; line-height:30px; font-size:18px; padding:5px 17px;}
+
+
+/*评审组-3-2-提交评审意见*/
+.mark_sheet .txt_red{ font-size:18px; padding:38px 0 5px;}
+.sheet_body caption{ border:1px solid #666; border-bottom:0;}
+.sheet_body table{ width:100%; border-collapse:collapse; border:1px solid #666; margin-bottom:4px;}
+.sheet_body h3{ font-size:30px; line-height:40px; padding:32px 0 18px;}
+.sheet_body h4{ font:bold 24px/30px "宋体"; padding-bottom:3px;}
+.sheet_body tr th{ border:1px solid #666; background-color:#f4f1f1; font-size:20px; padding:5px 10px;}
+.sheet_body tr td{ border:1px solid #666; padding:8px 10px; font-size:18px; line-height:30px; text-align:center;}
+.sheet_body select{ width:100%; height:28px; line-height:28px; border:1px solid #bebebe; font-size:18px;}
+.sheet_body b{ font-size:20px;}
+.mod_sucess .txt_yellow{ white-space:nowrap;}
+
+
+/*评审组-3-3-打印待聘论文列表*/
+.print_page{ padding:47px 0 180px;}
+.print_btn{ background:#348296 url(../images/print_icon.png) 30px 9px no-repeat; padding-left:26px;}
+.remarks{ position:absolute; top:0; right:0; width:168px; height:86px; line-height:86px; border-left:1px dashed #ccc; border-bottom:1px dashed #ccc; text-align:center; font-size:34px; font-family:"宋体"; color:#f4f1f1;}
+
+
+/*后台登录界面*/
+.admin_bg{ background:#18424b url(../images/login_bg.jpg) no-repeat center center;}
+.admin_top{ width:816px; height:96px; margin:0 auto; padding:105px 0 18px 184px;}
+.admin_top img{ float:left; margin-top:24px;}
+.admin_top p{ float:left; width:544px; font-size:32px; color:#fff; line-height:48px;}
+.admin_login{ width:316px; height:518px; margin:0 auto; padding:0 30px; background:url(../images/login_box.png) no-repeat;}
+.admin_login h4{ font-size:30px; font-weight:normal; color:#81b7c3; line-height:40px; text-align:center; padding:30px 0 151px;}
+.admin_login input{ height:59px; line-height:59px; color:#fff;}
+.input_one{ height:59px; position:relative; padding-bottom:10px;}
+.input_one input{ width:249px; font-size:16px; padding:0 20px 0 47px;}
+.input_one .msg{ position:absolute; top:17px; left:47px; color:#fff; font-size:16px;}
+.login_btn .btn{ width:100%; font-size:20px;}
+.warning{ height:24px; font-size:16px; color:#ffa200; padding:2px 0 19px;}
+.admin_btm{ width:1000px; margin:0 auto; border-top:1px solid #072930; margin-top:100px;}
+.admin_btm p{ border-top:1px solid #265964; font-size:16px; color:#fff; text-align:center; padding:25px 0 39px;}
